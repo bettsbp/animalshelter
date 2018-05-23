@@ -1,14 +1,24 @@
 .animal-left {
   float: left;
+
 }
 .animal-right {
   float: left;
+  padding-left: 50px;
 }
 
 .navigation {
   float: left;
+  margin: 15px;
 }
 
 .header {
   text-align: center;
+}
+
+.animals {
+  border: 50px solid skyblue;
+  overflow: hidden;
+  padding-left: 60px;
+
 }
