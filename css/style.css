@@ -21,20 +21,30 @@ body {
 
 .header {
   text-align: center;
+  font-style: oblique;
+  color: white;
+  font-size: 32px;
   background-image: url("../img/pan.jpg");
-  height: 100%;
-  width: 100%;
+  image-resolution: snap;
+  border: 10px solid skyblue;
+  border-radius: 10px;
 }
 
 .animals {
   overflow: hidden;
   padding-left: 10%;
-
+  margin-bottom: 2%;
 }
 .mnl {
   height: 300px;
   width: 400px;
   border-radius: 10%;
+  transition: 2.5s;
+}
+
+.mnl:hover {
+  transform: rotate(360deg);
+  transition: 5s;
 }
 .animals h3 {
   font-family: monospace;
@@ -61,4 +71,13 @@ li a {
 li a:hover {
   transition: .5s;
   background-color: peachpuff;
+}
+
+footer {
+  margin: 2%;
+  text-align: center;
+  color: grey;
+}
+.contact {
+  text-align: center;
 }
