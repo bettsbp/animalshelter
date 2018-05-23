@@ -16,6 +16,11 @@ body {
 .navigation {
   float: left;
   margin: 15px;
+}
+
+.navigation2 {
+  /*float: left;*/
+  margin: 15px;
 
 }
 
@@ -28,6 +33,7 @@ body {
   image-resolution: snap;
   border: 10px solid skyblue;
   border-radius: 10px;
+  margin-bottom: 25px;
 }
 
 .animals {
@@ -39,12 +45,13 @@ body {
   height: 300px;
   width: 400px;
   border-radius: 10%;
-  transition: 2.5s;
+  transition: .25s;
 }
 
 .mnl:hover {
-  transform: rotate(360deg);
-  transition: 5s;
+  transform: rotate(-7.5deg) scale(1.15);
+  transition: 1s;
+  /*transform: scale(2);*/
 }
 .animals h3 {
   font-family: monospace;
@@ -71,13 +78,29 @@ li a {
 li a:hover {
   transition: .5s;
   background-color: peachpuff;
+
 }
+.contact {
+  text-align: center;
+  /*float: left;*/
+  width: 100%;
+  padding: 20px;
+  margin: 10px;
+}
+
 
 footer {
   margin: 2%;
   text-align: center;
   color: grey;
 }
-.contact {
-  text-align: center;
+
+.steve {
+  height: 25%;
+  width: 25%;
+  border-radius: 100%;
+}
+.steve:hover {
+  transform: rotate(1080deg);
+  transition: 60s;
 }
