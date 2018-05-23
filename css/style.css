@@ -1,10 +1,15 @@
+body {
+  font-family: sans-serif;
+}
 .animal-left {
+  width: 45%;
   float: left;
-
+  padding: 15px;
 }
 .animal-right {
+  width: 45%;
   float: left;
-  padding-left: 50px;
+  padding: 15px;
 }
 
 .navigation {
@@ -19,6 +24,14 @@
 .animals {
   border: 50px solid skyblue;
   overflow: hidden;
-  padding-left: 60px;
 
+}
+.mnl {
+  height: 100%;
+  width: 100%;
+}
+.animals h3 {
+  font-family: monospace;
+  font-style: italic;
+  font-weight: 900;
 }
