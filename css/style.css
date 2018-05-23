@@ -30,7 +30,9 @@ body {
   color: white;
   font-size: 32px;
   background-image: url("../img/pan.jpg");
-  image-resolution: snap;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
   border: 10px solid skyblue;
   border-radius: 10px;
   margin-bottom: 25px;
@@ -95,12 +97,20 @@ footer {
   color: grey;
 }
 
-.steve {
+#steve {
   height: 25%;
   width: 25%;
   border-radius: 100%;
 }
-.steve:hover {
+#steve:hover {
   transform: rotate(1080deg);
   transition: 60s;
+}
+#header {
+  /*background-color: rgba(100, 100, 100, 0.5);
+  border-radius: 100%;
+  border: 1px dotted grey;
+  background-size: auto;*/
+  text-shadow: 5px 5px black
+
 }
